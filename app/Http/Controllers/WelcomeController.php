@@ -30,6 +30,8 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
+        var_dump($_ENV);
+        exit;
 		return view('welcome');
 	}
 
